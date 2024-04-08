@@ -1,15 +1,25 @@
-/*cores*/
-@primary: #1f60a4 !important;
-@secondary: #0c3969 !important;
-@info: #062648 !important;
 
-@success: #28a745 !important;
-@warning: #ffc107 !important;
-@danger: #dc3545 !important;
+/*cores do tema*/
+@primary: #ffaa17 !important;
+@primaryDark: darken(@primary, 15%);
+@primaryLight: lighten(@primary, 15%);
 
+@secondary: #041d38 !important;
+@secondaryDark: darken(@secondary, 15%);
+@secondaryLight: lighten(@secondary, 15%);
+
+@info: #ffffff !important;
+//@InfoDark;
+//@infoLight:
+
+/*Comunicação com o usuario*/
+@success: #198754 !important;
+@warning: #f7e800 !important;
+@danger: #bb2d3b !important;
+
+/*escala d cinza*/
 @dark: #1e1e1e !important;
 @light: #fff !important;
-
 @extraDarkGray: #333333 !important;
 @darkGray: #777777 !important;
 @gray: #bbbbbb !important;
@@ -26,8 +36,24 @@
     color: @primary;
 }
 
+.text-primaryLight{
+    color: @primaryLight;
+}
+
+.text-primaryDark{
+    color:@primaryDark;
+}
+
 .text-secondary{
     color: @secondary;
+}
+
+.text-secondaryLight{
+    color: @secondaryLight;
+}
+
+.text-secondaryDark{
+    color: @secondaryDark;
 }
 
 .text-info{
@@ -87,8 +113,24 @@
     background-color: @primary;
 }
 
+.bg-primaryLight{
+    background-color: @primaryLight;
+}
+
+.bg-primaryDark{
+    background-color: @primaryDark;
+}
+
 .bg-secondary{
     background-color: @secondary;
+}
+
+.bg-secondaryLight{
+    background-color: @secondaryLight;
+}
+
+.bg-secondaryDark{
+    background-color: @secondaryDark;
 }
 
 .bg-info{
@@ -134,9 +176,28 @@
     .text-primary;
 }
 
+.outline-primaryLight{
+    border: 1px solid @primaryLight;
+    .text-primaryLight;
+}
+
+.outline-primaryDark{
+    border: 1px solid @primaryDark;
+    .text-primaryDark;
+}
+
 .outline-secondary{
     border: 1px solid @secondary;
     .text-secondary;
+}
+
+.outline-secondaryLight{
+    border: 1px solid @secondaryLight;
+    .text-secondaryLight;
+}
+
+.outline-secondaryDark{
+    border: 1px solid @secondaryDark;
 }
 
 .outline-info{

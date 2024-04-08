@@ -1,0 +1,102 @@
+@import "../UI-Kit//typography.less";
+@import "../UI-Kit/utils.less";
+
+footer {
+  .footer-main {
+    .after-left {
+      &:after {
+        background-color: @light;
+      }
+    }
+    .fale-conosco {
+      p {
+        margin-bottom: 15px;
+        i {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .bottom-line {
+    padding: 20px 0px;
+    .creditos {
+      display: block;
+      float: left;
+      a {
+        color: lighten(@primary, 10%);
+        text-decoration: underline;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+    .menu {
+      width: 100%;
+      .nav {
+      }
+    }
+  }
+}
+
+/****************************************************************/
+/************************* MEDIA QUERIES ************************/
+/****************************************************************/
+@media (min-width: 1px) and (max-width: 576px) {
+  footer {
+    .bottom-line {
+      .creditos {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  footer {
+    .bottom-line {
+      .creditos {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  footer {
+    .bottom-line {
+      .menu {
+        .nav {
+          float: right;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  footer {
+    .bottom-line {
+      .menu {
+        .nav {
+          float: right;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  footer {
+    .bottom-line {
+      .menu {
+        .nav {
+          float: right;
+        }
+      }
+    }
+  }
+}

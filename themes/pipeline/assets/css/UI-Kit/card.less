@@ -1,0 +1,160 @@
+/*Topo bar - informações acima do menu*/
+.card-horizontal-01 {
+  border: none;
+  .card-header {
+    .p-relative;
+    background-color: @light;
+    .text-primary;
+    border-bottom: none !important;
+    i {
+      .vh-center;
+      .e-large;
+    }
+  }
+  .card-body {
+    span {
+      font-weight: bold;
+      .small;
+    }
+  }
+}
+
+/*serviços da home*/
+.card-horizontal-02 {
+  border: none;
+  .card-header {
+    .p-relative;
+    background-color: @light;
+    .text-primary;
+    border-bottom: none !important;
+    i {
+      .vh-center;
+      .e-large;
+    }
+  }
+  .card-body {
+    span {
+      .text-primary;
+      .small;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+  }
+}
+
+/*blog - lista de posts*/
+.card-horizontal-03 {
+  border: none;
+  .card-header {
+    background-color: @light;
+    border-bottom: none !important;
+  }
+  .card-body {
+    h3 {
+      .text-primary;
+    }
+    .card-infos {
+      .text-gray;
+      .e-small;
+      font-style: italic;
+    }
+    .card-text {
+      .default;
+    }
+  }
+}
+
+.card-vertical-01 {
+  width: 67%;
+  margin: auto;
+  border: none;
+ 
+  .card-header {
+    .p-relative;
+    background-color: @light;
+    .text-primary;
+    border-bottom: none !important;
+    height: 224px;
+    i {
+      .vh-center;
+      .e-large;
+      background-color: @primary;
+      color: @light;
+      padding: 50px 25px;
+    }
+  }
+  .card-body {
+    span {
+      .text-primary;
+      .small;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+  }
+}
+
+.card-vertical-02{
+  .card-header{
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    img{
+      .vh-center;
+    }
+  }
+}
+
+/*pg contato*/
+.card-horizontal-04 {
+  border: none;
+  .card-header {
+    .p-relative;
+    background-color: @light;
+    .text-primary;
+    .outline-primary;
+    i {
+      .vh-center;
+      .e-large;
+    }
+  }
+  .card-body {
+    span {
+      font-weight: bold;
+      .small;
+    }
+  }
+}
+
+/****************************************************************/
+/************************* MEDIA QUERIES ************************/
+/****************************************************************/
+@media (min-width: 1px) and (max-width: 576px) {
+  .card-vertical-01 {
+    width: 85%;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .card-vertical-01 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .card-horizontal-01 {
+    i {
+      .large;
+    }
+  }
+  .card-vertical-01 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1200px) {
+}

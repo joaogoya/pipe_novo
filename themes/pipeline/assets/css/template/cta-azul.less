@@ -1,0 +1,64 @@
+@import "../UI-Kit//typography.less";
+@import "../UI-Kit/utils.less";
+
+.cta-azul {
+  padding: 35px 0px !important;
+  font-weight: 200;
+  text-transform: uppercase;
+  .row{
+    margin-bottom: 0px;
+  }
+  span {
+    line-height: 45px;
+  }
+  a {
+    float: right;
+    i {
+      margin-right: 10px;
+    }
+  }
+}
+
+/****************************************************************/
+/************************* MEDIA QUERIES ************************/
+/****************************************************************/
+@media (min-width: 1px) and (max-width: 576px) {
+  .cta-azul {
+    text-align: center;
+    &.cta-azul {
+      a {
+        float: none;
+        width: auto;
+        margin: auto;
+        text-align: center;
+        width: 130px;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .cta-azul {
+    text-align: center;
+    &.cta-azul {
+      a {
+        float: none;
+        width: auto;
+        margin: auto;
+        text-align: center;
+        width: 130px;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,183 @@
+// @font-face {
+//     font-family: 'Lato';
+//     src: url('./../../../reat/assets/fonts/lato/lato-regular-webfont.woff2') format('woff2'),
+//          url('./../../../reat/assets/fonts/lato/lato-regular-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+.lato{  font-family: sans-serif; }
+
+body{ .lato; }
+
+.default{ font-size: 14px;}
+.e-large{font-size: 45px !important;}
+.large{font-size: 25px !important;}
+.small{font-size: 18px !important;}
+.e-small{font-size: 12px !important;}
+
+p{ .default; }
+
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+}
+
+h1{
+  font-size: 45px;
+}
+
+h2{
+  font-size: 25px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+h4{
+  font-size: 18px;
+}
+
+h5{
+  font-size: 16px;
+}
+
+h6{
+  font-size: 14px;
+}
+
+
+/*
+after esq
+after cent
+
+com hr
+*/
+
+
+.after-left{
+  position: relative;
+  &:after{
+    display: block;
+    content:'';
+    width: 40px;
+    height: 5px;
+    background-color: @primary;
+    border-radius: 1px;
+    margin-top: 3px;
+    position: absolute;
+  }
+}
+
+.after-center{
+  text-align: center;
+  position: relative;
+  &:after{
+    display: block;
+    content:'';
+    width: 40px;
+    height: 5px;
+    background-color: @primary;
+    border-radius: 1px;
+    margin-top: 3px;
+    .h-center;
+  }
+}
+
+.before-line{
+  &:before{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: @gray;
+    position: absolute;
+    bottom: -6px;
+  }
+}
+
+
+
+blockquote{
+    background: @primary;
+    color: @light;
+    width: 70%;
+    .small;
+    margin: auto;
+    padding: 19px 61px;
+    border-left: 10px solid @info;
+    font-style: italic;
+}
+
+mark{
+    background: @primary;
+    color: @light;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+/****************************************************************/
+/************************* MEDIA QUERIES ************************/
+/****************************************************************/
+@media (min-width: 1px) and (max-width: 576px) {
+    .xx-large {
+      font-size: 36px !important;
+    }
+    .e-large {
+      font-size: 32px !important;
+    }
+    .large {
+      font-size: 24px !important;
+    }
+    .medium {
+      font-size: 18px !important;
+    }
+    .small {
+      font-size: 14px !important;
+    }
+    .e-small {
+      font-size: 12px !important;
+    }
+    .xx-small {
+      font-size: 10px !important;
+    }
+   
+  }
+  
+  @media (min-width: 576px) and (max-width: 768px) {
+    .xx-large {
+      font-size: 36px !important;
+    }
+    .e-large {
+      font-size: 32px !important;
+    }
+    .large {
+      font-size: 24px !important;
+    }
+    .medium {
+      font-size: 18px !important;
+    }
+    .small {
+      font-size: 14px !important;
+    }
+    .e-small {
+      font-size: 12px !important;
+    }
+    .xx-small {
+      font-size: 10px !important;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+  }
+  
+  @media (min-width: 993px) and (max-width: 1200px) {
+  }
+  
+  @media (min-width: 1200px) {
+  }
+

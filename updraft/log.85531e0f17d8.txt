@@ -1,0 +1,136 @@
+0000.248 () Opened log file at time: Tue, 16 Apr 2024 11:03:44 +0000 on http://localhost/pipe_novo
+0000.253 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.2 WP: 6.5.2 PHP: 7.4.8 (apache2handler, Windows NT DESKTOP-1DI5SHA 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.13-MariaDB (max packet size=33554432) WPLANG: pt_BR Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.8 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 47.2M | 8M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.253 () Free space on disk containing Updraft's temporary directory: 844933.8 MB
+0000.459 () Restore setup, now closing connection and starting restore over AJAX.
+0000.072 () Opened log file at time: Tue, 16 Apr 2024 11:03:45 +0000 on http://localhost/pipe_novo
+0000.074 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.2 WP: 6.5.2 PHP: 7.4.8 (apache2handler, Windows NT DESKTOP-1DI5SHA 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.13-MariaDB (max packet size=33554432) WPLANG: pt_BR Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.8 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 45M | 8M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.075 () Free space on disk containing Updraft's temporary directory: 844933.8 MB
+0000.122 () Ensuring WP_Filesystem is setup for a restore
+0000.124 () WP_Filesystem is setup and ready for a restore
+0000.443 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_ngg_album","wp_ngg_gallery","wp_ngg_pictures"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.616 () Entity: db
+0000.616 () restore_backup(backup_file=backup_2024-04-16-0758_Pipeline_462fb7d517b1-db.gz, type=db, info=a:0:{}, last_one=)
+0000.617 () Desempacotando o backup... (backup_2024-04-16-0758_Pipeline_462fb7d517b1-db.gz, 0.3 Mb)
+0000.622 () Database successfully unpacked
+0000.625 () Restaurando o banco de dados (em um site grande isso pode levar um longo tempo - se o tempo se esgotar (o que pode ocorrer se a empresa de hospedagem web configurou a sua hospedagem com limitação de recursos) então você deveria utilizar um método diferente, como o phpMyAdmin)...
+0000.626 () Using direct MySQL access; value of use_mysqli is: 1
+0000.627 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0001.778 () Max packet size: 32 MB
+0001.778 () Entering maintenance mode
+0001.778 () Ativando modo de manutenção&#8230;
+0002.300 () Backup of: http://localhost/pipe_novo
+0002.303 () Content URL: http://localhost/pipe_novo/wp-content
+0002.303 () Uploads URL: http://localhost/pipe_novo/wp-content/uploads
+0002.304 () Old table prefix: wp_
+0002.304 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0002.305 () Site information: multisite=0
+0002.305 () Site information: sql_mode=NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0002.308 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0002.309 () New table prefix: a7_
+0002.343 () Processing table (InnoDB): wp_options - will restore as: a7_options
+0003.903 () Atomic restore: dropping original table (wp_options)
+0004.408 () Atomic restore: renaming new table (a7_options) to final table name (wp_options)
+0004.675 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0004.880 () Processing table (InnoDB): wp_users - will restore as: a7_users
+0005.328 () Atomic restore: dropping original table (wp_users)
+0005.492 () Atomic restore: renaming new table (a7_users) to final table name (wp_users)
+0005.691 () Processing table (InnoDB): wp_usermeta - will restore as: a7_usermeta
+0005.961 () Atomic restore: dropping original table (wp_usermeta)
+0006.103 () Atomic restore: renaming new table (a7_usermeta) to final table name (wp_usermeta)
+0006.264 () Processing table (InnoDB): wp_commentmeta - will restore as: a7_commentmeta
+0006.489 () Atomic restore: dropping original table (wp_commentmeta)
+0006.720 () Atomic restore: renaming new table (a7_commentmeta) to final table name (wp_commentmeta)
+0006.956 () Processing table (InnoDB): wp_comments - will restore as: a7_comments
+0007.963 () Atomic restore: dropping original table (wp_comments)
+0008.115 () Atomic restore: renaming new table (a7_comments) to final table name (wp_comments)
+0008.308 () Processing table (InnoDB): wp_links - will restore as: a7_links
+0008.552 () Atomic restore: dropping original table (wp_links)
+0008.715 () Atomic restore: renaming new table (a7_links) to final table name (wp_links)
+0009.540 () Processing table (InnoDB): wp_postmeta - will restore as: a7_postmeta
+0009.904 () Atomic restore: dropping original table (wp_postmeta)
+0010.124 () Atomic restore: renaming new table (a7_postmeta) to final table name (wp_postmeta)
+0010.310 () Processing table (InnoDB): wp_posts - will restore as: a7_posts
+0010.602 () Atomic restore: dropping original table (wp_posts)
+0010.742 () Atomic restore: renaming new table (a7_posts) to final table name (wp_posts)
+0010.985 () Processing table (InnoDB): wp_term_relationships - will restore as: a7_term_relationships
+0011.294 () Atomic restore: dropping original table (wp_term_relationships)
+0011.525 () Atomic restore: renaming new table (a7_term_relationships) to final table name (wp_term_relationships)
+0011.744 () Processing table (InnoDB): wp_term_taxonomy - will restore as: a7_term_taxonomy
+0012.129 () Atomic restore: dropping original table (wp_term_taxonomy)
+0012.412 () Atomic restore: renaming new table (a7_term_taxonomy) to final table name (wp_term_taxonomy)
+0012.648 () Processing table (InnoDB): wp_termmeta - will restore as: a7_termmeta
+0013.052 () Atomic restore: dropping original table (wp_termmeta)
+0013.216 () Atomic restore: renaming new table (a7_termmeta) to final table name (wp_termmeta)
+0013.435 () Processing table (InnoDB): wp_terms - will restore as: a7_terms
+0013.822 () Atomic restore: dropping original table (wp_terms)
+0014.306 () Atomic restore: renaming new table (a7_terms) to final table name (wp_terms)
+0014.614 () Processing table (InnoDB): wp_ngg_album - will restore as: a7_ngg_album
+0014.856 () Atomic restore: dropping original table (wp_ngg_album)
+0015.084 () Atomic restore: renaming new table (a7_ngg_album) to final table name (wp_ngg_album)
+0015.262 () Processing table (InnoDB): wp_ngg_gallery - will restore as: a7_ngg_gallery
+0015.857 () Atomic restore: dropping original table (wp_ngg_gallery)
+0016.605 () Atomic restore: renaming new table (a7_ngg_gallery) to final table name (wp_ngg_gallery)
+0016.823 () Processing table (InnoDB): wp_ngg_pictures - will restore as: a7_ngg_pictures
+0017.036 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0017.075 () UpdraftVault: this site has not been connected - check your settings
+0018.538 () Unlocking database and leaving maintenance mode
+0018.539 () Desativando modo de manutenção&#8230;
+0018.541 () Atomic restore: dropping original table (wp_ngg_pictures)
+0020.122 () Database queries processed: 50 in 19.49 seconds
+0020.123 () Atomic restore: renaming new table (a7_ngg_pictures) to final table name (wp_ngg_pictures)
+0020.375 () Finished: lines processed: 50 in 19.74 seconds
+0020.376 () Limpando a sujeira...
+0020.378 () Begin search and replace (updraftplus_restored_db)
+0020.378 () [Database-replace-site-url] Banco de dados: pesquisar e substituir o URL do site
+0020.378 () This option was not selected.
+0020.517 () Entity: plugins
+0020.517 () restore_backup(backup_file=backup_2024-04-16-0758_Pipeline_462fb7d517b1-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:62:"D:\Programas windows\xampp\htdocs\pipe_novo/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0020.518 () Desempacotando o backup... (backup_2024-04-16-0758_Pipeline_462fb7d517b1-plugins.zip, 8.3 MB)
+0020.522 () Unzipping backup_2024-04-16-0758_Pipeline_462fb7d517b1-plugins.zip to D:/Programas windows/xampp/htdocs/pipe_novo/wp-content/upgrade/b9eb342e/ using UpdraftPlus_ZipArchive, starting index 0
+0021.791 () Unzip progress: 1002 out of 1615 files (25.3 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Iterator/MapIterator.php)
+0022.770 () Unzip progress: 1615 out of 1615 files (28.8 MB, plugins/updraftplus/vendor/team-updraft/common-libs/src/updraft-tasks/class-updraft-tasks-activation.php)
+0022.780 () Moving old data: filesystem method / updraft_dir is potentially possible
+0022.789 () Moving old data: can potentially use wp_filesystem method / -old
+0022.789 () Removendo dados antigos do caminho...
+0023.057 () Top-level entities being moved: akismet, better-search-replace, classic-editor, font-awesome, hello.php, index.php, updraftplus
+0023.065 () Movendo backup desempacotado para o local...
+0023.315 () Top-level entities being moved: akismet, better-search-replace, classic-editor, font-awesome, hello.php, index.php, updraftplus
+0023.323 () Limpando a sujeira...
+0024.512 () Entity: themes
+0024.512 () restore_backup(backup_file=backup_2024-04-16-0758_Pipeline_462fb7d517b1-themes.zip, type=themes, info=a:3:{s:4:"path";s:61:"D:\Programas windows\xampp\htdocs\pipe_novo/wp-content/themes";s:11:"description";s:5:"Temas";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0024.517 () Desempacotando o backup... (backup_2024-04-16-0758_Pipeline_462fb7d517b1-themes.zip, 9.1 MB)
+0024.523 () Unzipping backup_2024-04-16-0758_Pipeline_462fb7d517b1-themes.zip to D:/Programas windows/xampp/htdocs/pipe_novo/wp-content/upgrade/a5eed0aa/ using UpdraftPlus_ZipArchive, starting index 0
+0027.430 () Unzip progress: 1147 out of 7352 files (28 B, themes/index.php)
+0029.694 () Unzip progress: 2148 out of 7352 files (6.2 MB, themes/pipeline/node_modules/csso/lib/compressor/restructure/prepare/createDeclarationIndexer.js)
+0030.790 () Unzip progress: 3149 out of 7352 files (9.7 MB, themes/pipeline/node_modules/grunt-legacy-util/.idea/vcs.xml)
+0032.596 () Unzip progress: 4150 out of 7352 files (13.9 MB, themes/pipeline/node_modules/less/test/less/errors/import-subfolder1.txt)
+0040.024 () Unzip progress: 5151 out of 7352 files (14.5 MB, themes/pipeline/node_modules/lodash/fp/without.js)
+0044.127 () Unzip progress: 6152 out of 7352 files (17.3 MB, themes/pipeline/node_modules/pinkie-promise/package.json)
+0050.455 () Unzip progress: 7153 out of 7352 files (23.1 MB, themes/pipeline/node_modules/uri-path/LICENSE-MIT)
+0052.861 () Unzip progress: 7352 out of 7352 files (24.4 MB, themes/pipeline/style.css)
+0052.891 () Moving old data: filesystem method / updraft_dir is potentially possible
+0052.893 () Moving old data: can potentially use wp_filesystem method / -old
+0052.893 () Removendo dados antigos do caminho...
+0054.061 () Top-level entities being moved: index.php, pipeline
+0054.440 () [Updraftplus] There was an error when performing the move operation by renaming or copying D:\Programas windows\xampp\htdocs\pipe_novo/wp-content/themes/pipeline to D:\Programas windows\xampp\htdocs\pipe_novo/wp-content/updraft/themes-old/pipeline: will attempt a recursive copy instead.
+0072.161 () Movendo backup desempacotado para o local...
+0073.798 () Top-level entities being moved: index.php, pipeline
+0073.809 () Limpando a sujeira...
+0075.270 () Entity: uploads
+0075.270 () restore_backup(backup_file=backup_2024-04-16-0758_Pipeline_462fb7d517b1-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:62:"D:\Programas windows\xampp\htdocs\pipe_novo/wp-content/uploads";s:11:"description";s:6:"Envios";}, last_one=)
+0075.272 () Desempacotando o backup... (backup_2024-04-16-0758_Pipeline_462fb7d517b1-uploads.zip, 0 MB)
+0075.275 () Unzipping backup_2024-04-16-0758_Pipeline_462fb7d517b1-uploads.zip to D:/Programas windows/xampp/htdocs/pipe_novo/wp-content/upgrade/b4a25945/ using UpdraftPlus_ZipArchive, starting index 0
+0075.449 () Moving old data: filesystem method / updraft_dir is potentially possible
+0075.450 () Moving old data: can potentially use wp_filesystem method / -old
+0075.450 () Removendo dados antigos do caminho...
+0075.602 () Movendo backup desempacotado para o local...
+0075.608 () Limpando a sujeira...
+0076.019 () Entity: others
+0076.019 () restore_backup(backup_file=backup_2024-04-16-0758_Pipeline_462fb7d517b1-others.zip, type=others, info=a:2:{s:4:"path";s:54:"D:\Programas windows\xampp\htdocs\pipe_novo/wp-content";s:11:"description";s:6:"Outros";}, last_one=1)
+0076.023 () Desempacotando o backup... (backup_2024-04-16-0758_Pipeline_462fb7d517b1-others.zip, 26.1 MB)
+0076.030 () Unzipping backup_2024-04-16-0758_Pipeline_462fb7d517b1-others.zip to D:/Programas windows/xampp/htdocs/pipe_novo/wp-content/upgrade/01b94007/ using UpdraftPlus_ZipArchive, starting index 0
+0077.543 () Unzip progress: 215 out of 215 files (29.5 MB, wphb-cache/wphb-cache.php)
+0077.578 () Limpando a sujeira...
+0078.825 () Purging cache directory: D:\Programas windows\xampp\htdocs\pipe_novo/wp-content/wphb-cache
+0079.472 () Restore successful!
+0079.473 () Restore successful

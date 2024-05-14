@@ -1,0 +1,89 @@
+@import "color-scheme.less";
+@import "typography.less";
+
+.navbar {
+  line-height: 45px !important;
+  z-index: 25;
+  padding: 0px !important;
+  border-bottom: 2px solid lighten(@primary, 15%);
+  .container-fluid {
+    padding: 0px;
+  }
+  &.fixed-top {
+    z-index: 15;
+    height: auto;
+    .nav-link {
+      font-size: 0.9em;
+      float: left;
+    }
+  }
+
+  //bt hamburger
+  .navbar-toggler {
+    border: 2px solid @lightGray;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  //ul - menu propriamente dito
+  .navbar-nav {
+    .nav-item {
+      .p-relative;
+      border-bottom: 5px solid @primary;
+      &:hover {
+        background-color: @primary;
+        border-bottom: 5px solid @light;
+      }
+    }
+    .nav-link {
+      color: @light;
+      text-transform: uppercase;
+      transition: all 0.3s;
+      .e-small;
+      font-weight: 600;
+      margin: 0 10px;
+    }
+  }
+
+  // bt que abre o dropdown qd tem meunu dropdown
+  .dropdown-toggle::after {
+    content: none;
+  }
+  .dropdown-menu {
+    border-color: lighten(@primary, 25%);
+    padding-left: 15px;
+  }
+}
+
+/****************************************************************/
+/************************* MEDIA QUERIES ************************/
+/****************************************************************/
+@media (min-width: 1px) and (max-width: 576px) {
+  .navbar-collapse {
+    .nav-item {
+      text-align: center;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .navbar-collapse {
+    .nav-item {
+      text-align: center;
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .navbar-collapse {
+    .nav-item {
+      text-align: center;
+    }
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1200px) {
+}

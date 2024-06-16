@@ -1,0 +1,348 @@
+0000.001 (0) Opened log file at time: Tue, 04 Jun 2024 11:40:19 +0000 on http://localhost/pipe_novo
+0000.085 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.3 PHP: 7.4.8 (apache2handler, Windows NT DESKTOP-1DI5SHA 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.13-MariaDB (max packet size=1048576) WPLANG: pt_BR Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.8 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 43.3M | 46M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.151 (0) Free space on disk containing Updraft's temporary directory: 845241.7 MB
+0000.676 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.814 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0001.008 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1716977706, seconds_ago=523514)
+0001.419 (0) Set semaphore last lock (fd) time to 2024-06-04 11:40:20
+0001.481 (0) Semaphore lock (fd) complete
+0001.705 (0) Backup run: resumption=0, nonce=9bd58de9c1f8, file_nonce=9bd58de9c1f8 begun at=1717501219 (1s ago), job type=backup
+0001.804 (0) Scheduling a resumption (1) after 300 seconds (1717501520) in case this run gets aborted
+0002.123 (0) Checking if we have a zip executable available
+0002.320 (0) Creation of backups of directories: beginning
+0002.551 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0009.197 (0) Total entities for the zip file: 238 directories, 1378 files (0 skipped as non-modified), 28.9 MB
+0009.899 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0010.402 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip.tmp: 100 files added (on-disk size: 42.5 KB)
+0010.541 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip.tmp: 200 files added (on-disk size: 42.5 KB)
+0010.634 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip.tmp: 300 files added (on-disk size: 42.5 KB)
+0010.734 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip.tmp: 400 files added (on-disk size: 42.5 KB)
+0010.844 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip.tmp: 500 files added (on-disk size: 42.5 KB)
+0010.913 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip.tmp: 600 files added (on-disk size: 42.5 KB)
+0011.032 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip.tmp: 700 files added (on-disk size: 42.5 KB)
+0011.097 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 1378 files batched, 744 (745) added so far); re-opening (prior size: 42.5 KB)
+0025.639 (0) A useful amount of data was added after this amount of zip processing: 15.8 s (normalised: 15.8 s, rate: 1624.4 KB/s)
+0025.762 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip.tmp: 800 files added (on-disk size: 7222.1 KB)
+0025.815 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip.tmp: 900 files added (on-disk size: 7222.1 KB)
+0025.894 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip.tmp: 1000 files added (on-disk size: 7222.1 KB)
+0025.976 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip.tmp: 1100 files added (on-disk size: 7222.1 KB)
+0026.053 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip.tmp: 1200 files added (on-disk size: 7222.1 KB)
+0026.252 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip.tmp: 1300 files added (on-disk size: 7222.1 KB)
+0030.487 (0) Creating zip file manifest (backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip.list-temp.tmp)
+0030.553 (0) Successfully created zip file manifest (size: 117755)
+0030.831 (0) Created plugins zip (0) - 8468.8 KB in 28.2 s (300.7 KB/s) (sha1: d5c0025609bd9e8f13e1f4e802b72710fa705268, sha256: 600f8778856284c2410b90c9b4108983df182efac25223c2af547bc70b9d7ead)
+0030.919 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0030.957 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c31dd17c8ea57e340a95eb59d87fbada)
+0041.252 (0) Google Drive: quota usage: used=615.9 MB, total=15360 MB, available=14744.1 MB
+0041.310 (0) Google Drive: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip: Attempting to upload to Google Drive (into folder id: 1x14hQuM0xYHzWxLcWB69TY2AOc7AdDjO)
+0042.917 (0) Googledrive chunked upload: 12.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 46.1 / 48)
+0043.995 (0) Googledrive chunked upload: 36.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 46.1 / 48)
+0045.326 (0) Googledrive chunked upload: 84.6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 46.1 / 48)
+0047.466 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0047.590 (0) Google Drive: OK: Archive backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip uploaded in 6.23 seconds
+0047.701 (0) Recording as successfully uploaded: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip
+0047.883 (0) Deleting local file: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip: OK
+0048.154 (0) Beginning creation of dump of themes (split every: 400 MB)
+0058.878 (0) Total entities for the zip file: 1150 directories, 6215 files (0 skipped as non-modified), 24.4 MB
+0058.996 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0059.247 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 100 files added (on-disk size: 198 KB)
+0059.335 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 200 files added (on-disk size: 198 KB)
+0059.415 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 300 files added (on-disk size: 198 KB)
+0059.491 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 400 files added (on-disk size: 198 KB)
+0059.565 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 500 files added (on-disk size: 198 KB)
+0059.647 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 600 files added (on-disk size: 198 KB)
+0059.737 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 700 files added (on-disk size: 198 KB)
+0059.927 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 800 files added (on-disk size: 198 KB)
+0060.166 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 900 files added (on-disk size: 198 KB)
+0060.248 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 1000 files added (on-disk size: 198 KB)
+0060.292 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.2 MB, 6215 files batched, 1001 (1002) added so far); re-opening (prior size: 198 KB)
+0064.414 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 1100 files added (on-disk size: 2148.9 KB)
+0064.490 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 1200 files added (on-disk size: 2148.9 KB)
+0064.558 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 1300 files added (on-disk size: 2148.9 KB)
+0064.656 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 1400 files added (on-disk size: 2148.9 KB)
+0064.737 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 1500 files added (on-disk size: 2148.9 KB)
+0064.860 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 1600 files added (on-disk size: 2148.9 KB)
+0064.943 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 1700 files added (on-disk size: 2148.9 KB)
+0065.102 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 1800 files added (on-disk size: 2148.9 KB)
+0065.171 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 1900 files added (on-disk size: 2148.9 KB)
+0065.276 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 2000 files added (on-disk size: 2148.9 KB)
+0065.324 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.5 MB, 6215 files batched, 1001 (2003) added so far); re-opening (prior size: 2148.9 KB)
+0068.677 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 2100 files added (on-disk size: 3505.4 KB)
+0068.768 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 2200 files added (on-disk size: 3505.4 KB)
+0068.863 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 2300 files added (on-disk size: 3505.4 KB)
+0068.955 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 2400 files added (on-disk size: 3505.4 KB)
+0069.252 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 2500 files added (on-disk size: 3505.4 KB)
+0069.388 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 2600 files added (on-disk size: 3505.4 KB)
+0069.568 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 2700 files added (on-disk size: 3505.4 KB)
+0069.802 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 2800 files added (on-disk size: 3505.4 KB)
+0070.100 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 2900 files added (on-disk size: 3505.4 KB)
+0070.539 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 3000 files added (on-disk size: 3505.4 KB)
+0070.657 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.2 MB, 6215 files batched, 1001 (3004) added so far); re-opening (prior size: 3505.4 KB)
+0073.071 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 3100 files added (on-disk size: 5149.8 KB)
+0073.143 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 3200 files added (on-disk size: 5149.8 KB)
+0073.199 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 3300 files added (on-disk size: 5149.8 KB)
+0073.292 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 3400 files added (on-disk size: 5149.8 KB)
+0073.375 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 3500 files added (on-disk size: 5149.8 KB)
+0073.458 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 3600 files added (on-disk size: 5149.8 KB)
+0073.528 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 3700 files added (on-disk size: 5149.8 KB)
+0073.659 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 3800 files added (on-disk size: 5149.8 KB)
+0073.768 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 3900 files added (on-disk size: 5149.8 KB)
+0073.848 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 4000 files added (on-disk size: 5149.8 KB)
+0073.927 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (0.6 MB, 6215 files batched, 1001 (4005) added so far); re-opening (prior size: 5149.8 KB)
+0075.112 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 4100 files added (on-disk size: 5576.7 KB)
+0075.188 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 4200 files added (on-disk size: 5576.7 KB)
+0075.279 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 4300 files added (on-disk size: 5576.7 KB)
+0076.484 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 4400 files added (on-disk size: 5576.7 KB)
+0076.927 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 4500 files added (on-disk size: 5576.7 KB)
+0077.003 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 4600 files added (on-disk size: 5576.7 KB)
+0077.117 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 4700 files added (on-disk size: 5576.7 KB)
+0077.188 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 4800 files added (on-disk size: 5576.7 KB)
+0077.316 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 4900 files added (on-disk size: 5576.7 KB)
+0077.387 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 5000 files added (on-disk size: 5576.7 KB)
+0077.447 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.8 MB, 6215 files batched, 1001 (5006) added so far); re-opening (prior size: 5576.7 KB)
+0079.831 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 5100 files added (on-disk size: 6689.8 KB)
+0079.909 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 5200 files added (on-disk size: 6689.8 KB)
+0079.983 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 5300 files added (on-disk size: 6689.8 KB)
+0080.054 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 5400 files added (on-disk size: 6689.8 KB)
+0080.132 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 5500 files added (on-disk size: 6689.8 KB)
+0080.216 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 5600 files added (on-disk size: 6689.8 KB)
+0080.291 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 5700 files added (on-disk size: 6689.8 KB)
+0080.383 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 5800 files added (on-disk size: 6689.8 KB)
+0080.454 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 5900 files added (on-disk size: 6689.8 KB)
+0080.512 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 6000 files added (on-disk size: 6689.8 KB)
+0080.545 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.7 MB, 6215 files batched, 1001 (6007) added so far); re-opening (prior size: 6689.8 KB)
+0083.711 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 6100 files added (on-disk size: 8490.8 KB)
+0083.802 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.tmp: 6200 files added (on-disk size: 8490.8 KB)
+0084.839 (0) Creating zip file manifest (backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.list-temp.tmp)
+0084.913 (0) Successfully created zip file manifest (size: 452913)
+0085.181 (0) Created themes zip (0) - 9324.4 KB in 37 s (252.3 KB/s) (sha1: 1421d81c85c292056bafef36c9b1973ed3e581d9, sha256: ea65c7d285ef9fbc619ef3d70cf282973935ebf15776cbccfaa8bd63c9dc67bb)
+0085.305 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0085.325 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c31dd17c8ea57e340a95eb59d87fbada)
+0085.966 (0) Google Drive: quota usage: used=624.2 MB, total=15360 MB, available=14735.8 MB
+0086.175 (0) Google Drive: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip: Attempting to upload to Google Drive (into folder id: 1x14hQuM0xYHzWxLcWB69TY2AOc7AdDjO)
+0087.704 (0) Googledrive chunked upload: 11 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 46.8 / 50)
+0088.650 (0) Googledrive chunked upload: 32.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 46.8 / 50)
+0090.474 (0) Googledrive chunked upload: 76.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 46.8 / 50)
+0092.693 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0092.839 (0) Google Drive: OK: Archive backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip uploaded in 6.61 seconds
+0092.894 (0) Recording as successfully uploaded: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip
+0092.980 (0) Deleting local file: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip: OK
+0093.221 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0093.262 (0) Looking for candidates to backup in: D:\Programas windows\xampp\htdocs\pipe_novo/wp-content/uploads
+0093.302 (0) finding files: 2024: adding to list (1)
+0093.339 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0093.444 (0) Total entities for the zip file: 4 directories, 0 files (0 skipped as non-modified), 0 MB
+0093.510 (0) Did not find any files in the zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-uploads.zip.tmp
+0093.641 (0) Created uploads zip (0) - 0.4 KB in 0.2 s (2 KB/s) (sha1: c2c4082d4c9dec47ec2a9d3c8c2266f553a0e38b, sha256: 9a08ee396c94fd276b4c76e118987dfc540b9fec2f5d98858d51781d70d88a9c)
+0093.707 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0093.747 (0) Does not exist: D:\Programas windows\xampp\htdocs\pipe_novo/wp-content/mu-plugins
+0093.774 (0) There are no mu-plugins to backup. Will not raise an error.
+0093.844 (0) mu-plugins: create_zip returned an error
+0093.916 (0) Beginning backup of other directories found in the content directory (index: 0)
+0093.945 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0093.972 (0) Looking for candidates to backup in: D:\Programas windows\xampp\htdocs\pipe_novo/wp-content
+0094.010 (0) finding files: .git: adding to list (1)
+0094.026 (0) finding files: .github: adding to list (2)
+0094.143 (0) finding files: index.php: adding to list (3)
+0094.169 (0) finding files: languages: adding to list (4)
+0094.209 (0) finding files: leiame.txt: adding to list (5)
+0094.236 (0) finding files: ngg: adding to list (6)
+0094.280 (0) finding files: plugins: skipping: this is the plugins directory
+0094.313 (0) finding files: themes: skipping: this is the themes directory
+0094.367 (0) finding files: updraft: skipping: this is the updraft directory
+0094.406 (0) finding files: upgrade: skipping: excluded by options
+0094.445 (0) finding files: upgrade-temp-backup: adding to list (7)
+0094.483 (0) finding files: uploads: skipping: this is the uploads directory
+0094.510 (0) finding files: wphb-logs: adding to list (8)
+0098.592 (0) Total entities for the zip file: 306 directories, 1829 files (0 skipped as non-modified), 42.3 MB
+0098.665 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0098.868 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 100 files added (on-disk size: 33.7 KB)
+0098.948 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 200 files added (on-disk size: 33.7 KB)
+0099.010 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 300 files added (on-disk size: 33.7 KB)
+0099.071 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 400 files added (on-disk size: 33.7 KB)
+0099.137 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 500 files added (on-disk size: 33.7 KB)
+0099.223 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 600 files added (on-disk size: 33.7 KB)
+0099.315 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 700 files added (on-disk size: 33.7 KB)
+0099.390 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 800 files added (on-disk size: 33.7 KB)
+0099.461 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 900 files added (on-disk size: 33.7 KB)
+0099.539 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 1000 files added (on-disk size: 33.7 KB)
+0099.586 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.7 MB, 1829 files batched, 1001 (1002) added so far); re-opening (prior size: 33.7 KB)
+0104.860 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 1100 files added (on-disk size: 6594.9 KB)
+0104.932 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 1200 files added (on-disk size: 6594.9 KB)
+0104.996 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 1300 files added (on-disk size: 6594.9 KB)
+0105.085 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 1400 files added (on-disk size: 6594.9 KB)
+0105.169 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 1500 files added (on-disk size: 6594.9 KB)
+0105.257 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 1600 files added (on-disk size: 6594.9 KB)
+0105.424 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 1700 files added (on-disk size: 6594.9 KB)
+0105.539 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (30.2 MB, 1829 files batched, 728 (1730) added so far); re-opening (prior size: 6594.9 KB)
+0112.675 (0) A useful amount of data was added after this amount of zip processing: 8.8 s (normalised: 7.3 s, rate: 3517.5 KB/s)
+0112.819 (0) Zip: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.tmp: 1800 files added (on-disk size: 37610.8 KB)
+0117.496 (0) Creating zip file manifest (backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.list-temp.tmp)
+0117.548 (0) Successfully created zip file manifest (size: 119953)
+0118.195 (0) Created others zip (0) - 38889.4 KB in 23.6 s (1649.1 KB/s) (sha1: dc4ace2b35a9f27a4ffb252cb9cab9b1cc45efaa, sha256: f5c4800046c0217065e6d05d551fd7cfbdc1e34eb88e77123c3d64d2dd68e65e)
+0118.294 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0118.322 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c31dd17c8ea57e340a95eb59d87fbada)
+0118.831 (0) Google Drive: quota usage: used=633.3 MB, total=15360 MB, available=14726.7 MB
+0118.877 (0) Google Drive: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip: Attempting to upload to Google Drive (into folder id: 1x14hQuM0xYHzWxLcWB69TY2AOc7AdDjO)
+0120.597 (0) Googledrive chunked upload: 2.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 46.1 / 50)
+0121.484 (0) Googledrive chunked upload: 7.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 46.1 / 50)
+0122.699 (0) Googledrive chunked upload: 18.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 46.1 / 50)
+0125.158 (0) Googledrive chunked upload: 39.5 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 46.1 / 50)
+0128.360 (0) Googledrive chunked upload: 81.6 % uploaded (32505856)
+0131.307 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0131.368 (0) Google Drive: OK: Archive backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip uploaded in 12.44 seconds
+0131.384 (0) Recording as successfully uploaded: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip
+0131.483 (0) Deleting local file: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip: OK
+0131.643 (0) Saving backup status to database (elements: 8)
+0131.940 (0) Beginning creation of database dump (WordPress DB)
+0131.992 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0132.042 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe
+0132.401 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1309 bytes total)
+0132.455 (0) Binary mysqldump: error (code: 2)
+0133.314 (0) Table wp_options: Total expected rows (via COUNT): 249
+0133.348 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0133.516 (0) Table wp_options: Rows added in this batch (next record: 819): 245 (uncompressed bytes in this segment=1197257) in 0.87 seconds
+0133.650 (0) Table wp_options: finishing file(s) (2, 338.8 KB)
+0133.773 (0) Table wp_users: Total expected rows (via COUNT): 1
+0133.838 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0133.905 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1407) in 0.16 seconds
+0134.002 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0134.596 (0) Table wp_usermeta: Total expected rows (via COUNT): 22
+0134.697 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0134.752 (0) Table wp_usermeta: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=2427) in 0.66 seconds
+0134.903 (0) Table wp_usermeta: finishing file(s) (2, 1.2 KB)
+0135.060 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0135.201 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=696) in 0.22 seconds
+0135.377 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0135.504 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0135.561 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.774 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2136) in 0.32 seconds
+0135.959 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0136.155 (0) Table wp_links: Total expected rows (via COUNT): 0
+0136.267 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1306) in 0.12 seconds
+0136.411 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0136.568 (0) Table wp_postmeta: Total expected rows (via COUNT): 188
+0136.594 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0136.672 (0) Table wp_postmeta: Rows added in this batch (next record: 190): 188 (uncompressed bytes in this segment=11436) in 0.19 seconds
+0137.356 (0) Table wp_postmeta: finishing file(s) (2, 3.3 KB)
+0137.630 (0) Table wp_posts: Total expected rows (via COUNT): 19
+0137.674 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.763 (0) Table wp_posts: Rows added in this batch (next record: 24): 19 (uncompressed bytes in this segment=25610) in 0.25 seconds
+0137.916 (0) Table wp_posts: finishing file(s) (2, 5.2 KB)
+0138.000 (0) Table wp_term_relationships: Total expected rows (approximate): 2
+0138.148 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 2 (uncompressed bytes in this segment=708) in 0.17 seconds
+0138.268 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0138.809 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 2
+0139.452 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0139.985 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=951) in 1.66 seconds
+0140.181 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0140.398 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0140.500 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=669) in 0.20 seconds
+0140.620 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0140.692 (0) Table wp_terms: Total expected rows (via COUNT): 2
+0140.744 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0140.842 (0) Table wp_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=763) in 0.16 seconds
+0141.138 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0141.458 (0) Table wp_ngg_album: Total expected rows (via COUNT): 0
+0141.513 (0) Table wp_ngg_album: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=844) in 0.25 seconds
+0141.655 (0) Table wp_ngg_album: finishing file(s) (2, 0.4 KB)
+0141.792 (0) Table wp_ngg_gallery: Total expected rows (via COUNT): 0
+0141.852 (0) Table wp_ngg_gallery: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=965) in 0.07 seconds
+0141.986 (0) Table wp_ngg_gallery: finishing file(s) (2, 0.4 KB)
+0142.195 (0) Table wp_ngg_pictures: Total expected rows (via COUNT): 0
+0142.238 (0) Table wp_ngg_pictures: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1130) in 0.14 seconds
+0142.383 (0) Table wp_ngg_pictures: finishing file(s) (2, 0.5 KB)
+0142.418 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_options.table.tmpr820.gz (1/15/fopen): adding to final database dump
+0142.828 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_options.table.gz (2/15/fopen): adding to final database dump
+0142.880 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_users.table.tmpr2.gz (3/15/fopen): adding to final database dump
+0142.920 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_users.table.gz (4/15/fopen): adding to final database dump
+0142.962 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_usermeta.table.tmpr23.gz (5/15/fopen): adding to final database dump
+0143.020 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_usermeta.table.gz (6/15/fopen): adding to final database dump
+0143.130 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_commentmeta.table.tmpr0.gz (7/15/fopen): adding to final database dump
+0143.229 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_commentmeta.table.gz (8/15/fopen): adding to final database dump
+0143.270 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_comments.table.tmpr2.gz (9/15/fopen): adding to final database dump
+0143.317 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_comments.table.gz (10/15/fopen): adding to final database dump
+0143.358 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_links.table.tmpr0.gz (11/15/fopen): adding to final database dump
+0143.404 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_links.table.gz (12/15/fopen): adding to final database dump
+0143.470 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_postmeta.table.tmpr191.gz (13/15/fopen): adding to final database dump
+0143.537 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_postmeta.table.gz (14/15/fopen): adding to final database dump
+0143.578 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_posts.table.tmpr25.gz (15/15/fopen): adding to final database dump
+0143.635 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_posts.table.gz (16/15/fopen): adding to final database dump
+0143.677 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_term_relationships.table.tmpr100001.gz (17/15/fopen): adding to final database dump
+0143.735 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_term_relationships.table.gz (18/15/fopen): adding to final database dump
+0143.776 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_term_taxonomy.table.tmpr3.gz (19/15/fopen): adding to final database dump
+0143.998 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_term_taxonomy.table.gz (20/15/fopen): adding to final database dump
+0144.118 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_termmeta.table.tmpr0.gz (21/15/fopen): adding to final database dump
+0144.207 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_termmeta.table.gz (22/15/fopen): adding to final database dump
+0144.303 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_terms.table.tmpr3.gz (23/15/fopen): adding to final database dump
+0144.339 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_terms.table.gz (24/15/fopen): adding to final database dump
+0144.381 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_ngg_album.table.tmpr0.gz (25/15/fopen): adding to final database dump
+0144.427 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_ngg_album.table.gz (26/15/fopen): adding to final database dump
+0144.475 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_ngg_gallery.table.tmpr0.gz (27/15/fopen): adding to final database dump
+0144.537 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_ngg_gallery.table.gz (28/15/fopen): adding to final database dump
+0144.567 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_ngg_pictures.table.tmpr0.gz (29/15/fopen): adding to final database dump
+0144.613 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db-table-wp_ngg_pictures.table.gz (30/15/fopen): adding to final database dump
+0144.702 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db.gz: finished writing out complete database file (353.9 KB)
+0144.919 (0) Total database tables backed up: 15 (backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db.gz, size: 362485, sha1: e3c3184e1917db010774f8f418ba6e20fe72c61e, sha256: a326fd3c59922a4fbf082e100a9f60734fd4ab904b6b40a5b511f489576f181e)
+0145.458 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip: plugins: This file has already been successfully uploaded
+0145.526 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip: themes: This file has already been successfully uploaded
+0145.568 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0145.614 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip: others: This file has already been successfully uploaded
+0145.655 (0) backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0145.713 (0) Saving backup history. Total backup size: 55.7 MB
+0145.801 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0145.908 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0145.946 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c31dd17c8ea57e340a95eb59d87fbada)
+0146.445 (0) Google Drive: quota usage: used=671.3 MB, total=15360 MB, available=14688.7 MB
+0146.763 (0) Google Drive: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-uploads.zip: Attempting to upload to Google Drive (into folder id: 1x14hQuM0xYHzWxLcWB69TY2AOc7AdDjO)
+0149.669 (0) Googledrive chunked upload: 100 % uploaded
+0149.759 (0) Google Drive: OK: Archive backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-uploads.zip uploaded in 2.85 seconds
+0149.779 (0) Recording as successfully uploaded: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-uploads.zip
+0149.867 (0) Deleting local file: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-uploads.zip: OK
+0150.450 (0) Google Drive: quota usage: used=671.3 MB, total=15360 MB, available=14688.7 MB
+0150.496 (0) Google Drive: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db.gz: Attempting to upload to Google Drive (into folder id: 1x14hQuM0xYHzWxLcWB69TY2AOc7AdDjO)
+0153.345 (0) Googledrive chunked upload: 100 % uploaded
+0153.605 (0) Google Drive: OK: Archive backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db.gz uploaded in 3.07 seconds
+0153.678 (0) Recording as successfully uploaded: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db.gz
+0153.819 (0) Deleting local file: backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-db.gz: OK
+0153.959 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=8, retain_db=8
+0154.094 (0) Number of backup sets in history: 6; groups (db): 1
+0154.147 (0) Examining (for databases) backup set with group_id=0, nonce=9bd58de9c1f8, datestamp=1717501219 (Jun 04 2024 11:40:19)
+0154.225 (0) This backup set is the backup set just made, so will not be deleted.
+0154.225 (0) Examining (for databases) backup set with group_id=0, nonce=b3f64cb07bc7, datestamp=1716977706 (May 29 2024 10:15:06)
+0154.225 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0154.265 (0) Examining (for databases) backup set with group_id=0, nonce=1881d7644511, datestamp=1716640164 (May 25 2024 12:29:24)
+0154.265 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0154.266 (0) Examining (for databases) backup set with group_id=0, nonce=e2ba832f1f22, datestamp=1715683379 (May 14 2024 10:42:59)
+0154.266 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0154.267 (0) Examining (for databases) backup set with group_id=0, nonce=a6ecf56018ee, datestamp=1714041311 (Apr 25 2024 10:35:11)
+0154.267 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0154.267 (0) Examining (for databases) backup set with group_id=0, nonce=462fb7d517b1, datestamp=1713265084 (Apr 16 2024 10:58:04)
+0154.267 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0154.268 (0) Number of backup sets in history: 6; groups (files): 1
+0154.312 (0) Examining (for files) backup set with nonce=9bd58de9c1f8, datestamp=1717501219 (Jun 04 2024 11:40:19)
+0154.312 (0) This backup set is the backup set just made, so will not be deleted.
+0154.377 (0) This backup set is the backup set just made, so will not be deleted.
+0154.378 (0) This backup set is the backup set just made, so will not be deleted.
+0154.378 (0) This backup set is the backup set just made, so will not be deleted.
+0154.379 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0154.418 (0) Examining (for files) backup set with nonce=b3f64cb07bc7, datestamp=1716977706 (May 29 2024 10:15:06)
+0154.418 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0154.418 (0) Examining (for files) backup set with nonce=1881d7644511, datestamp=1716640164 (May 25 2024 12:29:24)
+0154.418 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0154.419 (0) Examining (for files) backup set with nonce=e2ba832f1f22, datestamp=1715683379 (May 14 2024 10:42:59)
+0154.419 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0154.419 (0) Examining (for files) backup set with nonce=a6ecf56018ee, datestamp=1714041311 (Apr 25 2024 10:35:11)
+0154.419 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0154.419 (0) Examining (for files) backup set with nonce=462fb7d517b1, datestamp=1713265084 (Apr 16 2024 10:58:04)
+0154.419 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0154.419 (0) Retain: saving new backup history (sets now: 6) and finishing retain operation
+0154.631 (0) Resume backup (9bd58de9c1f8, 0): finish run
+0154.770 (0) Decremented the semaphore (fd) by 1
+0154.906 (0) Semaphore (fd) unlocked
+0154.994 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0155.397 (0) Deleting zip manifest (backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-plugins.zip.list.tmp)
+0155.469 (0) Deleting zip manifest (backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-themes.zip.list.tmp)
+0155.535 (0) Deleting zip manifest (backup_2024-06-04-0840_Pipeline_9bd58de9c1f8-others.zip.list.tmp)
+0155.595 (0) No email will/can be sent - the user has not configured an email address.
+0155.698 (0) The backup succeeded and is now complete

@@ -1,25 +1,37 @@
 /*
 exibe e esconde o menu fixo qd o user da scrool
 */
-//console.log("js is running");
-$(".fixed-mobile-menu").hide();
 
 $(document).ready(function () {
-    
   //compartamento do menu
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
 
     // se é mobile trata o menu fixed mobile
     if (scroll >= 768) {
-      $(".fixed-mobile-menu").fadeIn("slow");
+      $(".scrool-navbar").fadeIn("slow");
+      $(".on-load-navbar").fadeOut("slow");
     } else {
-        console.log("fecha");
-      $(".fixed-mobile-menu").fadeOut("slow");
+      console.log("fecha");
+      $(".scrool-navbar").fadeOut("slow");
+      $(".on-load-navbar").fadeIn("slow");
     }
   });
 
-  //smooth scrool 
+  // Close Navbar when clicked outside
+  $(window).on("click", function (event) {
+    // element over which click was made
+    var clickOver = $(event.target);
+    if (
+      $(".navbar .navbar-toggler").attr("aria-expanded") == "true" &&
+      clickOver.closest(".navbar").length === 0
+    ) {
+      // Click on navbar toggler button
+      $('button[aria-expanded="true"]').click();
+    }
+  });
+
+  //smooth scrool
   $(".smooth").on("click", function (event) {
     if (this.hash !== "") {
       event.preventDefault();

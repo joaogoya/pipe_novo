@@ -17,10 +17,9 @@
 <body id="home">
     <main>
 
-        <?php //get_template_part('includes/template-parts/home/informacoes-contato'); ?>
 
         <?php get_template_part('includes/template-parts/menu/navbar'); ?>
    
-        <?php get_template_part('includes/template-parts/menu/navbarfixed'); ?>
+        <?php //get_template_part('includes/template-parts/menu/navbarfixed'); ?>
 
         <?php get_template_part('includes/template-parts/menu/single-top-bar'); ?>

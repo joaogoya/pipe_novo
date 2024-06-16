@@ -19,17 +19,11 @@
 }
 .roboto{  font-family:'roboto', sans-serif; }
 
-
-body{ .roboto; }
-
 .default{ font-size: 14px;}
 .e-large{font-size: 45px !important;}
 .large{font-size: 25px !important;}
 .small{font-size: 18px !important;}
 .e-small{font-size: 12px !important;}
-
-p{ .default; }
-
 
 h1, h2, h3, h4, h5, h6{
     font-weight: 600;
@@ -41,11 +35,11 @@ h1{
 }
 
 h2{
-  font-size: 25px;
+  font-size: 35px;
 }
 
 h3{
-  font-size: 20px;
+  font-size: 25px;
 }
 
 h4{
@@ -60,85 +54,23 @@ h6{
   font-size: 14px;
 }
 
-
-.tt-primary{
-  color: @primary;
-}
-
-.tt-secondary{
-  color: @secondary;
-}
-
-
-
-blockquote{
-    .bg-secondaryExtraGray;
-    margin: auto;
-    padding: 20px;
-    text-align: center;
-    border-radius: 15px;
-    i{
-      .text-secondaryGray;
-      font-size: 152px;
-      position: absolute;
-      z-index: 1;
-    }
-    i.top{
-      top: 0px;
-      right: 4%;
-    }
-    i.bottom{
-      bottom: 0px;
-      left: 4%;
-    }
-    p{
-      .oswald;
-      font-weight: 600;
-      .large;
-      color: @secondary;
-      z-index: 2;
-      float: left;
-      position: relative;
-      span{
-        .roboto;
-        font-weight: normal;
-        .small;
-      }
-    }
-}
-
 mark{
-    background: @primary;
+    background: @secondary;
     color: @light;
     padding: 5px 10px;
     border-radius: 5px;
 }
 
-.jumbotron{
-  .bg-primary;
-  .text-secondary;
-  border-radius: 15px;
-  p{
-    .oswald;
-    .large;
-    font-weight: bolder;
-    span{
-      .roboto;
-      font-weight: lighter;
-      .small;
-    }
-  }
-  i{
-    font-size: 152px !important;
-    color: #e4e9ff;
-    font-size: 152px;
-    text-align: center;
-    .text-secondary;
-    .vh-center;
-  }   
+/*iconografia*/
+.icon-defaullt{
+  .default;
 }
 
 
+
+
+body{ .roboto; }
+p{ .default; }
 
 /****************************************************************/
 /************************* MEDIA QUERIES ************************/

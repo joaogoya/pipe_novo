@@ -1,5 +1,109 @@
+<!-- 
+    text-links
+        titulo
+        texto
+        paragrafo
+    block-links
+        bg
+        outlines
+    icon-links
+        bg
+        outline
+    block-icon-links
+        icon-left
+        icon-right
+        icon-top
+        icon-bottom 
+ -->
+
+
 <section>
     <div class="container">
+
+    <div class="row">
+        <div class="col-12 bg-secondary">
+            <br>
+            <a class="text-link-primary" href="#">
+                <b>Lorem impsum  <br>
+                     dolor eneq </b>
+            </a>
+            <br><br><br>
+        </div>
+
+        <div class="col-3 bg-secondary">
+            <br>
+            <a class="text-link-primaryLight" href="#">
+                <b>Lorem impsum dolor eneq </b>
+            </a>
+            <br><br><br>
+        </div>
+        <div class="col-3 bg-secondary">
+            <br>
+            <a class="text-link-primaryExtraLight" href="#">
+                <b>Lorem impsum dolor eneq </b>
+            </a>
+            <br><br><br>
+        </div>
+        <div class="col-3 bg-secondary">
+            <br>
+            <a class="text-link-primaryExtraDark" href="#">
+                <b>Lorem impsum dolor eneq </b>
+            </a>
+            <br><br><br>
+        </div>
+        <div class="col-3 bg-secondary">
+            <br>
+            <a class="text-link-primaryDark" href="#">
+                <b>Lorem impsum dolor eneq </b>
+            </a>
+            <br><br><br>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-12 bg-primary">
+            <br>
+            <a class="text-link-secondary" href="#">
+                <b>Lorem impsum dolor eneq </b>
+            </a>
+            <br><br><br>
+        </div>
+
+        <div class="col-3 bg-primary">
+            <br>
+            <a class="text-link-secondaryLight" href="#">
+                <b>Lorem impsum dolor eneq </b>
+            </a>
+            <br><br><br>
+        </div>
+        <div class="col-3 bg-primary">
+            <br>
+            <a class="text-link-secondaryExtraLight" href="#">
+                <b>Lorem impsum <br> dolor eneq </b>
+            </a>
+            <br><br><br>
+        </div>
+        <div class="col-3 bg-primary">
+            <br>
+            <a class="text-link-secondaryDark" href="#">
+                <b>Lorem impsum dolor eneq </b>
+            </a>
+            <br><br><br>
+        </div>
+        <div class="col-3 bg-primary">
+            <br>
+            <a class="text-link-secondaryExtraDark" href="#">
+                <b>Lorem impsum dolor eneq </b>
+            </a>
+            <br><br><br>
+        </div>
+    </div>
+
+
+<br><br><br><br><br><br><br><br><br>
+
+
 
         <div class="row">
             <div class="col-md-6">

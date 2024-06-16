@@ -51,7 +51,7 @@ module.exports = function( grunt ) {
                 }
             },
             less: {   
-                files: ['assets/css/UI-Kit/*.less', 'assets/css/UI-Kit/buttons/*.less', 'assets/css/UI-Kit/navs/*.less', 'assets/css/pages/*.less', 'assets/css/template/*.less', 'assets/css/estilo_tema.less'],
+                files: ['assets/css/UI-Kit/*.less', 'assets/css/UI-Kit/links/*.less', 'assets/css/UI-Kit/page-elements/*.less', 'assets/css/UI-Kit/buttons/*.less', 'assets/css/UI-Kit/color-palette/*.less', 'assets/css/UI-Kit/navs/*.less', 'assets/css/pages/*.less', 'assets/css/template/*.less', 'assets/css/estilo_tema.less'],
                 tasks: ["less", "concat_css"],
                 options: {
                     nospawn: true

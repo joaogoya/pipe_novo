@@ -8,7 +8,7 @@ $(document).ready(function () {
     var scroll = $(window).scrollTop();
 
     // se é mobile trata o menu fixed mobile
-    if (scroll >= 768) {
+    if (scroll >= 268) {
       $(".scrool-navbar").fadeIn("slow");
       $(".on-load-navbar").fadeOut("slow");
     } else {
@@ -66,7 +66,7 @@ ScrollReveal().reveal(".slideup", {
   distance: "30%",
   origin: "bottom",
   opacity: 0,
-  duration: 2500,
+  duration: 5500,
 });
 
 ScrollReveal().reveal(".sliderigth", {

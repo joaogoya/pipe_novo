@@ -4,20 +4,25 @@
 .banner-home {
   padding: 0px !important;
   position: relative;
-  border: 1px solid tomato;
   .caption-banner {
     width: 90%;
     .vh-center;
     z-index: 10;
     color: @light;
     text-align: center;
-    h2 {
-      font-size: 90px !important;
-      font-weight: 600;
+    p {
+      .oswald-extra-light;
+      text-transform:uppercase;
+      font-size: 110px;
+      line-height: 110px;
       text-shadow: 1px 1px 1px @dark;
-      p {
-        .small;
-        text-shadow: 1px 1px 1px @dark;
+      span{
+        opacity: 0.5;
+      }
+      strong{
+        .oswald;
+        font-weight: bolder;
+        opacity: 1;
       }
     }
 
@@ -28,11 +33,9 @@
   .banner-home {
     .caption-banner {
       width: 100%;
-      h2 {
-        font-size: 32px !important;
-      }
       p {
-        font-size: 12px !important;
+        font-size: 32px !important;
+        line-height: 32px;;
       }
     }
   }
@@ -42,11 +45,9 @@
   .banner-home {
     .caption-banner {
       width: 100%;
-      h2 {
-        font-size: 32px !important;
-      }
       p {
-        font-size: 12px !important;
+        font-size: 32px !important;
+        line-height: 32px;;
       }
     }
   }
@@ -55,11 +56,9 @@
 @media (min-width: 769px) and (max-width: 992px) {
   .banner-home {
     .caption-banner {
-      h2 {
-        font-size: 45px !important;
-      }
       p {
-        font-size: 14px;
+        font-size: 68px !important;
+        line-height: 68px;;
       }
     }
   }

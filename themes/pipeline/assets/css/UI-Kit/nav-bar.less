@@ -8,6 +8,11 @@
   .container-fluid {
     padding: 0px;
   }
+  .navbar-brand {
+    display: block;
+    width: 55px;
+    margin-right: 15px !important;
+  }
   &.fixed-top {
     z-index: 15;
     height: auto;
@@ -16,8 +21,9 @@
       float: left;
     }
   }
-  &.scrool-navbar{
+  &.scrool-navbar {
     display: none;
+    border-bottom: 1px solid @secondary;
   }
 
   //bt hamburger
@@ -31,10 +37,9 @@
   .navbar-nav {
     .nav-item {
       .p-relative;
-      border-bottom: 5px solid @primary;
+      border-bottom: 5px solid transparent;
       &:hover {
-        background-color: @primary;
-        border-bottom: 5px solid @light;
+        border-bottom: 5px solid @secondary;
       }
     }
     .nav-link {
@@ -44,6 +49,7 @@
       .e-small;
       font-weight: 600;
       margin: 0 10px;
+      padding: 0px;
     }
   }
 
@@ -61,25 +67,64 @@
 /************************* MEDIA QUERIES ************************/
 /****************************************************************/
 @media (min-width: 1px) and (max-width: 576px) {
-  .navbar-collapse {
+  .navbar {
+    .navbar-brand {
+      margin-left: 15px;
+    }
     .nav-item {
       text-align: center;
+    }
+  }
+  .on-load-navbar {
+    .navbar-collapse {
+      .navbar-nav {
+        background-color: @primaryExtraLight;
+        .nav-link {
+          color: @primary;
+        }
+      }
     }
   }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
-  .navbar-collapse {
+  .navbar {
+    .navbar-brand {
+      margin-left: 15px;
+    }
     .nav-item {
       text-align: center;
+    }
+  }
+  .on-load-navbar {
+    .navbar-collapse {
+      .navbar-nav {
+        background-color: @primaryExtraLight;
+        .nav-link {
+          color: @primary;
+        }
+      }
     }
   }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
-  .navbar-collapse {
+  .navbar {
+    .navbar-brand {
+      margin-left: 15px;
+    }
     .nav-item {
       text-align: center;
+    }
+  }
+  .on-load-navbar {
+    .navbar-collapse {
+      .navbar-nav {
+        background-color: @primaryExtraLight;
+        .nav-link {
+          color: @primary;
+        }
+      }
     }
   }
 }

@@ -6,10 +6,8 @@
         echo pipe_get_img($banner_id, false, 'wide', 'lg-total');
     ?>
 
-    <div class="caption-banner ">
-        <h2>
-             <?php echo $ttexto_banner; ?>
-        </h2>
+    <div class="caption-banner slideup">
+        <?php echo $ttexto_banner; ?>
     </div>
 
 </section>

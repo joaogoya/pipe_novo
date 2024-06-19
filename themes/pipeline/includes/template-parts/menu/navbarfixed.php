@@ -1,9 +1,11 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary scrool-navbar">
     <div class="container">
 
-        <a class="navbar-brand mx-auto" href="<?php bloginfo('home'); ?>">
-            <img class="nav-scroll thumbnail" src="<?php bloginfo('template_url'); ?>/assets//img/logo.png"
-                title="<?php bloginfo('name'); ?> | <?php bloginfo('description'); ?>" alt="Logo da empresa">
+        <a class="navbar-brand" href="<?php bloginfo('home'); ?>">
+        <?php 
+                $logo_id = get_afc_by_page_slug('logo_versao_01', 'home_config', 'logotipo'); 
+                echo pipe_get_img($logo_id, false, 'thumb', 'lg-total');
+            ?>
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContentFixed"
